@@ -74,8 +74,8 @@ def send_telegram_message(message):
             print(f"Telegram Error sending to {chat_id}:", e)
 
 def get_brave_driver():
-    brave_path = r"C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
-    user_data_dir = r"C:/Users/ARPIT/AppData/Local/BraveSoftware/Brave-Browser/User Data"
+    brave_path = r"C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"  //For Other browser Make changes accordingly
+    user_data_dir = r"Path for your browser i prefer use Brave"
     options = Options()
     # options.add_argument("--headless=new")  # comment out to see browser
     options.binary_location = brave_path
